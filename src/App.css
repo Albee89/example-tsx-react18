@@ -1,0 +1,36 @@
+
+.CandidateTest {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff; /* White text color */
+  background-color: #333333; /* Dark grey background color */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.CandidateTest__title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #150707; 
+  margin-bottom: 8px;
+}
+
+.Popup {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+  padding: 15px;
+  margin: 0;
+  max-width: 400px;
+}
+
+.CandidateTest--underline {
+  border-bottom: 2px solid #ffffff; /* White underline */
+  cursor: help;
+}
+
+.popupContainer {
+  
+  position: relative;
+}
